@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2022_02_03_195357) do
   enable_extension "plpgsql"
 
   create_table "arts", force: :cascade do |t|
-    t.integer "cost"
+x    t.integer "cost"
     t.string "location"
     t.string "type"
     t.string "description"
